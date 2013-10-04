@@ -1,14 +1,13 @@
 # Home
 
 * [Page1](Page1.md)
-* [Page1](Page2.md)
+* [Page2](Page2.md)
 
 Line 1.
 Line 2.
 Line 3.
 
-```
-!#agda
+```agda
 ω =#? n = yes ω=j
 # i =#? j with i N.≟ j
 ... | yes i≡j rewrite i≡j = yes #i=i
